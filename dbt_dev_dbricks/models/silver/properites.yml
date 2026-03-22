@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: silver_returnsinfo
+    config:
+      materialized: view
+      schema: silver
+
+  - name: silver_salesinfo
+    config:
+      materialized: view
+      schema: silver
