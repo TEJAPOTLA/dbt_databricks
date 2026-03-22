@@ -93,16 +93,16 @@ dbt run
 dbt test
 
 ---
-
 ## 📊 Key Features
-Modular SQL-based transformations using dbt
-Layered data modeling (Bronze → Silver → Gold)
-Scalable ELT pipeline on Databricks
-Reusable and maintainable data models
-Data quality testing using dbt tests
-Version-controlled project using GitHub
-Support for incremental model processing (if configured)
-Organized project structure aligned with production practices
+
+- **Modular SQL-based transformations using dbt**  
+- **Layered data modeling (Bronze → Silver → Gold)**  
+- **Scalable ELT pipeline on Databricks**  
+- **Reusable and maintainable data models**  
+- **Data quality testing using dbt tests**  
+- **Version-controlled project using GitHub**  
+- **Support for incremental model processing (if configured)**  
+- **Organized project structure aligned with production practices**  
 
 ---
 
