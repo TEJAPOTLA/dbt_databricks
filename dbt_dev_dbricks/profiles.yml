@@ -6,7 +6,7 @@ dbt_dev_dbricks:
       http_path: /sql/1.0/warehouses/8daf284fc69037d2
       schema: default
       threads: 1
-      token: dapi5a5bb8d8ae4663832b98ae00b5266f26
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
       type: databricks
     prod:
       catalog: dbt_prod
@@ -14,7 +14,7 @@ dbt_dev_dbricks:
       http_path: /sql/1.0/warehouses/8daf284fc69037d2
       schema: default
       threads: 1
-      token: dapi5a5bb8d8ae4663832b98ae00b5266f26
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
       type: databricks
   target: dev
 
