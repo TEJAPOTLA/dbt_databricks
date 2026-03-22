@@ -92,8 +92,9 @@ dbt run
 7. Run Tests
 dbt test
 
+---
 
-📊 Key Features
+## 📊 Key Features
 Modular SQL-based transformations using dbt
 Layered data modeling (Bronze → Silver → Gold)
 Scalable ELT pipeline on Databricks
@@ -103,7 +104,9 @@ Version-controlled project using GitHub
 Support for incremental model processing (if configured)
 Organized project structure aligned with production practices
 
-🔄 Workflow
+---
+
+##🔄 Workflow
 Raw data is ingested into Databricks (Bronze layer)
 Data is cleaned and standardized in the Silver layer
 Business-level transformations and aggregations are created in the Gold layer
